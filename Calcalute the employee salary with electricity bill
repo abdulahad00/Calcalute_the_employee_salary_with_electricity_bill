@@ -1,0 +1,81 @@
+import 'dart:io';
+void main()
+{
+int grade;
+int check;
+int bill;
+int c;
+int d;
+var e;
+print("Enter Your grade");
+grade =int.parse(stdin.readLineSync()!);
+print("you are $grade of employee");
+print("Enter your electricity bill");
+bill =int.parse(stdin.readLineSync()!);
+print("your bill is $bill ");
+print("check your salary press 1");
+check =int.parse(stdin.readLineSync()!);
+
+if(check==1)
+{
+switch(grade)
+{
+
+case 11:
+{
+c=bill-11000;
+d=11000+c;
+print("your toltal salary is $d");
+break;
+}
+case 12:
+{
+c=bill-12000;
+d=12000+c;
+print("your toltal salary is $d");
+
+break;
+}
+case 13:
+{
+c=bill-13000;
+d=13000+c;
+print("your toltal salary is $d");
+
+break;
+}
+case 14:
+{
+c=bill-14000;
+d=14000+c;
+print("your toltal salary is $d");
+
+break;
+}
+case 15:
+{
+c=bill-15000;
+d=15000+c;
+print("your toltal salary is $d");
+
+break;
+}
+case 16:
+{
+c=bill-16000;
+d=16000+c;
+print("your toltal salary is $d");
+
+break;
+}
+case 17:
+{
+c=bill-17000;
+d=17000+c;
+print("your toltal salary is $d");
+
+break;
+}
+}
+}
+}
